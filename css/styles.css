@@ -1,0 +1,372 @@
+body{
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.aung{
+  position: relative;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  border-style: double;
+}
+.header-container,.main-line1{
+  position: relative;
+  width: 85%;
+  left: 7%;
+  top: 50px;
+}
+.header-container{
+    background-color: #DEF5E5;
+
+    padding:10px ;
+    border-radius: 10px;
+}
+
+
+/* card section//////////////////////////////////////// */
+
+.aung-card{
+   height: 100%;
+
+}
+.myself-card{
+
+  height: 100%;
+  text-align: center;
+  padding: 20px 30px 0;
+
+}
+.address-card{
+  position: relative;
+  height: 100%;
+  padding: 30px 20px 0 50px;
+
+}
+.aung-card, .myself-card, .address-card{
+  border-radius: 10px;
+  background-color: #A4BE7B;
+
+  color: #fff;
+}
+ .developer, .welcome, .invite{
+  font-family: 'Ubuntu', sans-serif;
+}
+.name{
+  font-family: 'Alex Brush', cursive;
+}
+.welcome{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.invite{
+  font-size: 14px;
+  color: #fff;
+}
+.developer{
+  opacity: 0.5;
+}
+
+/* main-line1 section///////////////////////////////////// */
+
+.main-line1{
+  margin-top: 10px;
+  padding: 0 60px 0 20px;
+  border-radius: 10px;
+  background-color: #DEF5E5;
+
+}
+.main-line2{
+  position: relative;
+  width: 85%;
+  left: 7%;
+  top: 60px;
+  border-radius: 10px;
+padding: 0 60px 20px 20px;
+background-color: #DEF5E5;
+}
+
+.invitation{
+  position: absolute;
+  height: 85%;
+  width: 100%;
+  left: 0;
+  background-color: #FFB100;
+  opacity: 0.7;
+  top: 13px;
+  padding: 20px;
+}
+.expression1{
+  position: relative;
+  right: 10px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #0D4C92;
+  color: #fff;
+  padding: 65px 50px ;
+  opacity: 0.7;
+
+}
+
+.mid-window1{
+  position: relative;
+  padding: 10px 35px;
+}
+
+.right-wing1, .left-wing1, .right-wing2, .left-wing2,.mid-window1, .mid-window2{
+  position: relative;
+}
+
+.wire-sphere{
+  position: absolute;
+  opacity: 0.5;
+}
+.sphere-container{
+  position: relative;
+  height: 250px;
+  background-color: #181D31;
+  width:230px;
+  padding: 20px;
+  top: 11px;
+  left: -35px;
+
+}
+
+
+
+.invitation, .expression1, .sphere-container{
+  border-radius: 10px;
+}
+.electron{
+  position: absolute;
+  transform: scale(0.2);
+  left: -240px;
+  top: -480px;
+}
+
+.skill{
+  position: absolute;
+  transform: scale(1.1);
+
+}
+.link {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 16px;
+}
+.link-package{
+  position: relative;
+  margin-top: 40px;
+}
+.link-box{
+  position: relative;
+  top: 22px;
+}
+.icon{
+  color: #243763;
+
+}
+.label, input, textarea{
+  position: relative;
+  display: block;
+}
+
+.form-container{
+  position: relative;
+  top: 10px;
+  right: 10px;
+  width: 170%;
+  height: 95%;
+  background-color: #A4BE7B;
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+}
+input, textarea{
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  background-color: #CFF5E7;
+}
+
+.submit{
+  margin-top: 10px;
+}
+
+.whole-package{
+  position: relative;
+  width: 85%;
+  left: 10%;
+  top: 50px;
+  border-radius: 10px;
+  padding: 0 0 120px 0;
+  background-color: #61876E;
+}
+.cell, .mail{
+  position: relative;
+  margin-right: 5px;
+
+}
+
+.errorMessage{
+  position: relative;
+  color: red;
+  bottom: 165px;
+  left: 75px;
+}
+.footer{
+  display: none;
+}
+@media (max-width: 992px){
+
+.aung{
+  width: 150px;
+  height: 150px;
+}
+.developer{
+  font-size: 14px;
+}
+.aung-aung{
+  font-size: 14px;
+}
+.gmail, .mobile{
+  font-size: 12px;
+}
+.main-line1{
+  padding: 10px 0 0 0;
+}
+.invitation{
+  top: 0;
+  left: 20px;
+  height: 90%;
+  width: 90%;
+}
+.link-package{
+  margin-top: 0;
+}
+.wire-sphere{
+  transform: scale(0.7);
+  top: -140px;
+  left: -85px;
+}
+
+
+.sphere-container{
+  position: relative;
+  height: 210px;
+  width:200px;
+  background-color: #181D31;
+  padding: 20px;
+  top: 0;
+  left: 5px;
+
+}
+
+.expression1{
+  font-size: 16px;
+  padding:10px ;
+  left: 10px;
+  right: 0;
+}
+.mid-window1{
+  padding: 0;
+}
+.skill{
+  position: absolute;
+  transform: scale(0.7);
+  left: -45px;
+  top: -200px;
+
+
+}
+
+.form-container{
+  width: 300%;
+  height: 95%;
+}
+.electron{
+display: none;
+}
+.footer{
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  bottom: 20px;
+}
+.footage{
+  position: relative;
+  margin: 0 15px 0 0;
+  color:  #61876E;
+}
+}
+
+@media (max-width: 500px){
+  .header-container, .main-line1, .main-line2{
+    left: 10%;
+    margin-bottom: 10px;
+  }
+  .card{
+    margin-bottom:50px;
+    height: 95%;
+  }
+
+  .sphere-container{
+    display: none;
+  }
+  .smallestSphere{
+    position: absolute;
+    left: 220px;
+    top: 560px;
+   opacity: 0.5;
+  }
+  .invitation{
+    display: none;
+  }
+  .expression1{
+    width: 95%;
+    top: 250px;
+    z-index: 1;
+  }
+  .form-container{
+    width: 125%;
+    height: 85%;
+    top: 180px;
+  }
+  .skill{
+    position: absolute;
+    transform: scale(0.55);
+    left: -245px;
+    top: -920px;
+
+  }
+  .footer{
+    position: absolute;
+    display: inline-block;
+    right: 50px;
+    bottom: 490px;
+  }
+  .main-line1{
+    height: 250px;
+  }
+  .main-line2{
+    height: 550px;
+  }
+  .leave{
+    position: absolute;
+    transform: scale(0.3) rotate(25deg);
+    top: -190px;
+    left: -320px;
+    opacity: 0.7;
+  }
+  .ring{
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.2);
+    top: -400px;
+    left: -30px;
+    opacity: 0.3;
+  }
+}
